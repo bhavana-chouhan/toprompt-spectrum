@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Spectrum",
+    "slug": "spectrum",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "generated-app",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "splash": {
+        "backgroundColor": "#F0F4FF"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F0F4FF"
+      },
+      "splash": {
+        "backgroundColor": "#F0F4FF"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "splash": {
+      "backgroundColor": "#F0F4FF",
+      "resizeMode": "contain"
+    }
+  }
+}
